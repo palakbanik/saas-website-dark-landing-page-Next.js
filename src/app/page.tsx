@@ -9,17 +9,17 @@ import { CallToAction } from "@/components/CallToAction";
 import { Footer } from "@/components/Footer";
 
 export default function Home() {
-  return (
-    <>
-      <Banner />
-      <Navbar />
-      <Hero />
-      <LogoTicker />
-      <Features />
-      <ProductShowcase />
-      <FAQs />
-      <CallToAction />
-      <Footer />
-    </>
-  );
+    return (
+        <>
+            <Banner />
+            <Navbar />
+            <Hero />
+            <LogoTicker />
+            <Features />
+            <ProductShowcase />
+            <FAQs />
+            <CallToAction />
+            <Footer />
+        </>
+    );
 }
