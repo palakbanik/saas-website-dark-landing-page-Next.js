@@ -1,6 +1,7 @@
 import Image from "next/image";
 import logoImage from "../assets/images/logosaas.png";
 import MenuIcon from "../assets/icons/menu.svg";
+import WhiteButton from "@/smallComponents/WhiteButton";
 
 const navLink = [
     { id: 1, label: "About", link: "#about" },
@@ -12,7 +13,7 @@ const navLink = [
 
 export const Navbar = () => {
     return (
-        <header className="bg-black">
+        <header className="bg-black w-full sticky top-0 left-0 z-50">
             <div className="container">
                 <div className="py-4 flex items-center justify-between">
                     <a href="#" className="relative">
@@ -33,14 +34,12 @@ export const Navbar = () => {
                             <a
                                 key={idx}
                                 href={link.link}
-                                className="text-white text-opacity-60 hover:text-opacity-100 transition"
+                                className="text-white text-opacity-60 transition-all hover:scale-105 hover:text-opacity-100"
                             >
                                 {link.label}
                             </a>
                         ))}
-                        <button className="bg-white px-4 py-2 rounded-lg border-2 border-white transition-all hover:bg-transparent hover:text-white">
-                            Get for free
-                        </button>
+                        <WhiteButton text={"Get for free"} />
                     </nav>
                 </div>
             </div>

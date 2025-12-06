@@ -6,14 +6,20 @@ import pulseLogo from "../assets/images/pulse.png";
 import apexLogo from "../assets/images/apex.png";
 
 const images = [
-  { src: acmeLogo, alt: "Acme Logo" },
-  { src: quantumLogo, alt: "Quantum Logo" },
-  { src: echoLogo, alt: "Echo Logo" },
-  { src: celestialLogo, alt: "Celestial Logo" },
-  { src: pulseLogo, alt: "Pulse Logo" },
-  { src: apexLogo, alt: "Apex Logo" },
+    { src: acmeLogo, alt: "Acme Logo" },
+    { src: quantumLogo, alt: "Quantum Logo" },
+    { src: echoLogo, alt: "Echo Logo" },
+    { src: celestialLogo, alt: "Celestial Logo" },
+    { src: pulseLogo, alt: "Pulse Logo" },
+    { src: apexLogo, alt: "Apex Logo" },
 ];
 
 export const LogoTicker = () => {
-  return null;
+    return (
+        <section className="bg-black text-white">
+            <div className="container">
+                <h2>Trusted by the world&apos;s most innovative teams</h2>
+            </div>
+        </section>
+    );
 };
