@@ -15,11 +15,9 @@ export const ProductShowcase = () => {
                         celebrate your sucesses, one task at a time.
                     </p>
                 </div>
-                <Image
-                    src={appScreen}
-                    alt="The product screenshot"
-                    className="mt-14"
-                />
+                <div className="mt-14 flex justify-center">
+                    <Image src={appScreen} alt="The product screenshot" />
+                </div>
             </div>
         </section>
     );

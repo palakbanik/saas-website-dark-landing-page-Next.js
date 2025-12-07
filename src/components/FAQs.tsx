@@ -59,7 +59,7 @@ export const FAQs = () => {
     return (
         <section className="bg-black bg-gradient-to-b from-[#5D2CAB] to-black text-white py-[72px] sm:py-24">
             <div className="container">
-                <h2 className="max-w-[648px] mx-auto text-center font-bold text-[32px] sm:text-5xl md:6xl leading-10 tracking-tighter">
+                <h2 className="max-w-[648px] mx-auto text-center font-bold text-[32px] sm:text-5xl md:text-6xl leading-10 tracking-tighter">
                     Frequently asked questions
                 </h2>
                 <div className="mt-12 max-w-[648px] mx-auto">
