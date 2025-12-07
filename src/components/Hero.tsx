@@ -1,4 +1,3 @@
-import WhiteButton from "@/smallComponents/WhiteButton";
 import ArrowIcon from "../assets/icons/arrow-w.svg";
 import cursorImage from "../assets/images/cursor.png";
 import messageImage from "../assets/images/message.png";
@@ -34,12 +33,12 @@ export const Hero = () => {
                         <Image
                             src={cursorImage}
                             alt="cursor icon"
-                            className="w-[200px] h-[200px] absolute top-[108px] right-[476px] hidden sm:inline"
+                            className="w-[200px] h-[200px] absolute top-[108px] right-[576px] hidden sm:inline"
                         />
                         <Image
                             src={messageImage}
                             alt="message icon"
-                            className="w-[200px] h-[200px] absolute top-[56px] left-[498px] hidden sm:inline"
+                            className="w-[200px] h-[200px] absolute sm:top-[56px] sm:left-[598px] hidden sm:inline"
                         />
                     </div>
                 </div>
@@ -52,7 +51,9 @@ export const Hero = () => {
                 </div>
 
                 <div className="flex justify-center mt-8 text-black">
-                    <WhiteButton text="Get for free" />
+                    <button className="font-medium bg-white text-black px-4 py-2 rounded-lg border-2 border-white transition-all hover:bg-transparent hover:text-white">
+                        Get for free
+                    </button>
                 </div>
             </div>
         </section>
