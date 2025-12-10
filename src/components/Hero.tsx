@@ -28,9 +28,9 @@ export const Hero = () => {
 
                 <div className="flex justify-center mt-8">
                     <div className="inline-flex relative">
-                        <h1 className="text-7xl sm:text-9xl font-bold text-center tracking-tighter text-white inline-flex">
+                        <motion.h1 className="text-7xl sm:text-9xl font-bold text-center tracking-tighter text-white inline-flex">
                             One Task <br /> at a Time
-                        </h1>
+                        </motion.h1>
 
                         <motion.div
                             drag
